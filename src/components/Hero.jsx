@@ -1,6 +1,6 @@
 import AOS from "aos";
-import { useEffect } from "react";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 import clients from "../assets/clients.png";
 import herobanner from "../assets/herobanner.png";
 
@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="w-[90%] m-auto flex lg:flex-row flex-col justify-between  items-center gap-28 py-20 sm:px-20"
+      className="w-[90%] m-auto flex lg:flex-row flex-col justify-between  items-center gap-28 py-20"
     >
       <div className="flex flex-col justify-center items-start gap-8">
         <h1
@@ -36,7 +36,7 @@ const Hero = () => {
         <button
           data-aos="zoom-in"
           data-aos-delay="600"
-          className="bg-flamered px-6 py-4 rounded-full text-[17px] font-ubuntu font-semibold hover:bg-black hover:text-white"
+          className="bg-limegreen px-6 py-4 rounded-full text-[17px] font-ubuntu font-semibold hover:bg-black hover:text-white"
         >
           Get Started Now
         </button>
