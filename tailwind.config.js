@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        flamered: '#ff4a17'
+        limegreen: '#c9f31d'
       },
       fontFamily: {
         ubuntu: ['Ubuntu Sans', 'sans-serif']
