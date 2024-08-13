@@ -16,13 +16,25 @@ const Pricing = () => {
       id="plan"
       className="w-[90%] m-auto flex  flex-col justify-between items-center gap-2 py-20 "
     >
-      <h1 className="text-lime-500 font-ubuntu text-[19px] font-semibold">
+      <h1
+        data-aos="zoom-in"
+        data-aos-delay="200"
+        className="text-lime-500 font-ubuntu text-[19px] font-semibold"
+      >
         PRICING PLAN
       </h1>
-      <h1 className="text-black w-[80%] font-semibold lg:text-[60px] text-[50px] lg:leading-[70px] leading-[50px] text-center font-ubuntu">
+      <h1
+        data-aos="zoom-in"
+        data-aos-delay="400"
+        className="text-black w-[80%] font-semibold lg:text-[60px] text-[50px] lg:leading-[70px] leading-[50px] text-center font-ubuntu"
+      >
         Choose your perfect plan
       </h1>
-      <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-10 mt-10 ">
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="600"
+        className="w-full flex flex-col lg:flex-row justify-between items-center gap-10 mt-10 "
+      >
         {pricingplan.map((item, index) => (
           <div
             key={index}
